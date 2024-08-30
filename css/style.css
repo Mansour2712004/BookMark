@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: dancing;
+    src: url(../DancingScript-VariableFont_wght.ttf);
+}
+
+body {
+    background-image: linear-gradient(100deg, #83885a, #ffffad);
+}
+
+h2 {
+    font-family: dancing;
+}
+
+h2:hover {
+    cursor: pointer;
+}
+
+.bold {
+    font-weight: 900;
+}
